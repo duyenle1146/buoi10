@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="buoi10.css">
+</head>
+<body>
+    <h1>ĐĂNG NHẬP THÔNG TIN CÁ NHÂN</h1>
+    <form name="form" onsubmit="return xacnhan()" method="post">
+        Họ và tên 
+        <input name="hoten" type="text"> <br><br>
+        Ngày <input id="ngay" type="text">
+        Tháng <input id="thang" name="thang" type="text">
+        Năm <input id="nam" type="text"><br><br>
+        Tuổi:
+        <input name="tuoi" type="text" placeholder="chỉ chứa number"><br><br>
+        Số điện thoại:
+        <input name="sodienthoai" type="text" placeholder="chỉ chứa number"> <br><br>
+        Giới tính:
+        <select>
+            <option>Nam</option>
+            <option>Nữ</option>
+        </select> <br><br>
+        <div id="vungchuanut">
+            <input type="submit" value="Xác nhận" id="nut-submit">
+        </div>
+    </form>
+    <script src="buoi10.js"></script>
+</body>
+</html>
